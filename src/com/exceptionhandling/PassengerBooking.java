@@ -1,8 +1,5 @@
 package com.exceptionhandling;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 //public class PassengerBooking {
 //	static int count;
 //	static Scanner sc = new Scanner(System.in);
@@ -77,6 +74,7 @@ import java.util.Scanner;
 //
 //}
 public class PassengerBooking {
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		String passengerIdStr = "101A";
 		String ageStr = "25";
