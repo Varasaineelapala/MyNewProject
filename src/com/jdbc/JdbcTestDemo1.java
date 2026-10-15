@@ -26,7 +26,7 @@ public class JdbcTestDemo1 {
 			}
 
 		} catch (Exception e) {
-			System.out.println("in catch");
+			System.out.println(e);
 		} finally {
 			if (con != null && stmt != null && rs != null) {
 				con.close();
