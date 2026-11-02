@@ -5,6 +5,8 @@ import java.util.Collections;
 
 public class AnagramOrNot {
 	static boolean isAnagram(String str1, String str2) {
+		str1 = str1.toLowerCase();
+		str2 = str2.toLowerCase();
 		if (str1.length() != str2.length()) {
 			return false;
 		}
@@ -23,7 +25,7 @@ public class AnagramOrNot {
 	}
 
 	public static void main(String[] args) {
-		String str1 = "bat";
+		String str1 = "Bat";
 		String str2 = "tab";
 		boolean boo = isAnagram(str1, str2);
 		if (boo) {
