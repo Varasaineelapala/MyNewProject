@@ -10,6 +10,9 @@ public class RangeFinder {
 		System.out.println("Lowest Score : " + scores.first());
 		System.out.println("Highest Score : " + scores.last());
 		System.out.println("Less than 70 : " + scores.headSet(70));
+		System.out.println("greater than or equal to 70 : " + scores.tailSet(70));
+		System.out.println("sub set : " + scores.subSet(10,70));
+		
 	}
 
 }
