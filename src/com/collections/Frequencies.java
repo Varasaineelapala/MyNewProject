@@ -13,7 +13,6 @@ public class Frequencies {
 	}
 
 	public static void main(String[] args) {
-		String[] strs = { "ate", "eat", "tea", "tan", "nat", "bat" };
 		int[] nums = { 1, 2, 3, 4, 1, 4, 3 };
 		findFrequencies(nums);
 	}

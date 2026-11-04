@@ -6,7 +6,7 @@ import java.util.List;
 public class AnagramsList {
 	static void group(String[] arr) {
 		boolean boo[] = new boolean[arr.length];
-		List<ArrayList<String>> anagrams = new ArrayList<>();
+		List<List<String>> anagrams = new ArrayList<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (!boo[i]) {
 				ArrayList<String> str = new ArrayList<>();
@@ -20,7 +20,6 @@ public class AnagramsList {
 					}
 				}
 				anagrams.add(str);
-
 			}
 
 		}
